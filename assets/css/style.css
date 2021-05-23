@@ -1,11 +1,29 @@
+/* Imported google fonts one called Montserrat for the main body of writing and Shadows Into Light font for headings */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shadows+Into+Light&display=swap');
 
+/* A pre seceltor to remove all default borders, margins and padding */
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/* Main body selectors to set a base standard for the website*/
 body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #47403F;
+    color: #ff0000;
+}
+
+/* Heading and Subtitles*/
+h1, h2 {
+    font-family: 'Shadows Into Light', sans-serif;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+#title {
+    text-align: center;
+    font-size: 300%;
 }
