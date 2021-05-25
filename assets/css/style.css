@@ -12,8 +12,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    background-color: #47403F;
-    color: #ff0000;
+    background-color: #3a3a3a;
+    color: #fff;
 }
 
 /* Heading and Subtitles*/
@@ -35,11 +35,18 @@ h1, h2 {
     letter-spacing: 3px;
 }
 
-#nav li {
+#nav-width {
+    width: 100%;
+}
+
+#nav .col-1 {
+    width: 15%;
     display: inline-block;
-    list-style-type: none;
-    padding: 20px;
+    padding: 20px; 
     border: 1px solid #ff0000;
+}
+#nav li {
+    list-style-type: none;
     position: relative;
 }
 
@@ -60,8 +67,14 @@ h1, h2 {
     color: #00FFF2;
 }
 
+.hidden {
+    animation-name: nav-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
 /* creates zoom for the nav buttons */
-/*needs work to incorparate into the nav bar
+/*
 @keyframes nav-zoom {
     from{
         width: 100%;
@@ -73,3 +86,60 @@ h1, h2 {
     }
 }
 */
+/* Media screen for screen sizes of 1350px and down */
+@media screen and (max-width: 1350px) {
+    #nav-width {
+        width: 100%;
+    }
+
+    #nav {
+        letter-spacing: 0px;
+    }
+
+    #nav .col-1 {
+        width: 15%;
+        display: inline-block;
+        padding: 0 0;
+        border: none;
+    }
+}
+/*  Media screen for screen sizes 1200px and down */
+@media screen and (max-width: 1200px) {
+    #title {
+        font-size: 150%;
+    }
+    
+    #nav {
+        letter-spacing: 0px;
+    }
+
+    #nav-width {
+        width: 100%;
+    }
+    
+    #nav .col-1 {
+        width: 15%;
+        display: inline-block;
+        padding: 0 0;
+        border: none;
+    }
+    #nav a:hover {
+        border: none;
+    }
+}
+
+/* Media screen for screen widths of 900px or less*/
+@media screen (max-width: 900px) {
+    #nav-width {
+        width: 100%;
+        height: 250px;
+    }
+    
+    #nav li {
+        position: absoluteS;
+    }
+
+    #nav .col-1 {
+        width: 25%;
+    }
+}
