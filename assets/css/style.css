@@ -67,12 +67,6 @@ h1, h2 {
     color: #00FFF2;
 }
 
-.hidden {
-    animation-name: nav-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
 /* creates zoom for the nav buttons */
 /*
 @keyframes nav-zoom {
@@ -86,6 +80,35 @@ h1, h2 {
     }
 }
 */
+
+/* Main image for inedx page*/
+
+#main-image-outer {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main-image {
+    height: 650px;
+    width: 100%;
+    background: url(../images/main-image.jpg) no-repeat center center;
+    position: relative;
+
+    animation-name: image-zoom;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes image-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
 /* Media screen for screen sizes of 1350px and down */
 @media screen and (max-width: 1350px) {
     #nav-width {
@@ -103,12 +126,13 @@ h1, h2 {
         border: none;
     }
 }
+
 /*  Media screen for screen sizes 1200px and down */
 @media screen and (max-width: 1200px) {
     #title {
         font-size: 150%;
     }
-    
+
     #nav {
         letter-spacing: 0px;
     }
