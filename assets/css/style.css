@@ -59,7 +59,7 @@ h1, h2 {
     color: #00FFF2;
 }
 
-#nav li:hover {
+#nav .col-1:hover {
     border: 1px solid #fff;
 }
 
@@ -81,12 +81,13 @@ h1, h2 {
 }
 */
 
-/* Main image for inedx page*/
+/* Main image for index page*/
 
 #main-image-outer {
     height: 650px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #main-image {
@@ -107,6 +108,40 @@ h1, h2 {
     to{
         transform: scale(1.1);
     }
+}
+
+/* Cover text of the main iamge */
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+    font-family: 'Shadows Into Light', sans-serif;
+}
+
+#cover-text p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cover text {
+    font-size: 150%;
+    letter-spacing: 1px;
+}
+
+#cover-text1 {
+    width: 400px;
+    height: 250px;
+    background-color: rgb(255, 182, 0, .4);
+    position: absolute;
+    bottom: 30px;
+    left: 150px;
+}
+
+#cover-text2 {
+    width: 400px;
+    height: 250px;
+    background-color: rgba(255, 182, 0, 0.4);
+    position: absolute;
+    bottom: 30px;
+    right: 150px;
 }
 
 /* Media screen for screen sizes of 1350px and down */
