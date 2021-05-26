@@ -112,36 +112,62 @@ h1, h2 {
 
 /* Cover text of the main iamge */
 
-#cover-text, #cover-text h2 {
+#picture-text, #picture-text h2 {
     color: #fff;
     font-family: 'Shadows Into Light', sans-serif;
 }
 
-#cover-text p {
+#picture-text p {
     font-family: 'Montserrat', sans-serif;
 }
 
-#cover text {
-    font-size: 150%;
-    letter-spacing: 1px;
-}
-
-#cover-text1 {
-    width: 400px;
-    height: 250px;
-    background-color: rgb(255, 182, 0, .4);
+#picture-text1 {
+    width: 450px;
+    height: 450px;
     position: absolute;
+    margin: 0;
+    padding: 0;
     bottom: 30px;
     left: 150px;
 }
 
-#cover-text2 {
-    width: 400px;
-    height: 250px;
-    background-color: rgba(255, 182, 0, 0.4);
+#picture-text2 {
+    width: 450px;
+    height: 450px;
     position: absolute;
+    margin: 0;
+    padding: 0;
     bottom: 30px;
     right: 150px;
+}
+
+#circle-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(255, 142, 0, 0.4);
+    margin: 0;
+    padding: 0;
+}
+
+#picture-text #text-container {
+    width: 70%;
+    height: 70%;
+    max-width: 70%;
+    max-height: 70%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 15%;
+    top: 15%;
+    transform-style: preserve-3d;
+}
+
+.main-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* Media screen for screen sizes of 1350px and down */
