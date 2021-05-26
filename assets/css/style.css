@@ -107,7 +107,7 @@ h1, h2 {
 
 #picture-text p {
     font-family: 'Montserrat', sans-serif;
-    color: #000;
+    color: #848484;
     font-weight: 200;
 }
 
@@ -135,7 +135,7 @@ h1, h2 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: rgba(255, 142, 0, 0.4);
+    background-color: rgba(255, 142, 0, 0.6);
     margin: 0;
     padding: 0;
 }
@@ -163,42 +163,73 @@ h1, h2 {
 /* The general information about the site section*/
 #info-container {
     width: 100%;
-    height: 600px;
+    height: 700px;
     display: inline-block;
     margin-top: 20px;
 }
 
 #info-box1 {
     width: 45%;
-    height: 300px;
+    height: 400px;
     background-color: rgba(255, 142, 0, 0.3);
+    border: 6px inset #fff;
     position: relative;
+    overflow: hidden;
     left: 20px;
 }
 
 #info-box2 {
     width: 45%;
-    height: 300px;
+    height: 400px;
     position: relative;
+    overflow: hidden;
     float: right;
     right: 20px;
-    bottom: 300px;
+    bottom: 410px;
     background-color: rgba(255, 142, 0, 0.3);
+    border: 6px inset #fff;
 }
 
 #info-box3 {
     width: 45%;
-    height: 300px;
+    height: 400px;
     background-color: rgba(255, 142, 0, 0.3);
+    border: 6px inset #fff;
     position: relative;
+    overflow: hidden;
     top: 20px;
     left: 515px;
 }
 
 #the-info {
-    width: 49%;
-    height: 100%;
+    width: 35%;
+    height: 75%;
     float: left;
+    margin-left: 35px;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    text-align: center;
+}
+
+#the-info #text-container2 {
+    width: 70%;
+    height: 70%;
+    max-width: 70%;
+    max-height: 70%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 15%;
+    top: 15%;
+    transform-style: preserve-3d;
+}
+
+#main-text2 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #roman-image {
@@ -208,6 +239,12 @@ h1, h2 {
     background-image: url(../images/romans.jpg);
 }
 
+#info-box1:hover #roman-image:hover {
+    animation-name: image-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
 #carthage-image {
     width: 50%;
     height: 100%;
@@ -215,11 +252,23 @@ h1, h2 {
     background-image: url(../images/carthage-soldiers.jpg) ;
 }
 
+#carthage-image:hover {
+    animation-name: image-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
 #battle-image {
     width: 50%;
     height: 100%;
     float: right;
     background-image: url(../images/battle-of-carthage.jpg);
+}
+
+#battle-image:hover {
+    animation-name: image-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
 /* The footer of the page */
