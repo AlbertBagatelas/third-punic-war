@@ -98,6 +98,25 @@ h1, h2 {
     }
 }
 
+/* Main image for battle of carthage page */
+#main-image-outer2 {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#main-image2 {
+    height: 650px;
+    width: 100%;
+    background: url(../images/seige-of-carthage.jpg) no-repeat center center;
+    position: relative;
+
+    animation-name: image-zoom;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
 /* Cover text of the main iamge */
 
 #picture-text, #picture-text h2 {
