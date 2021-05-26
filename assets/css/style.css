@@ -107,7 +107,7 @@ h1, h2 {
 
 #picture-text p {
     font-family: 'Montserrat', sans-serif;
-    color: #848484;
+    color: #fff;
     font-weight: 200;
 }
 
@@ -173,6 +173,7 @@ h1, h2 {
     height: 400px;
     background-color: rgba(255, 142, 0, 0.3);
     border: 6px inset #fff;
+    border-radius: 20%;
     position: relative;
     overflow: hidden;
     left: 20px;
@@ -188,6 +189,7 @@ h1, h2 {
     bottom: 410px;
     background-color: rgba(255, 142, 0, 0.3);
     border: 6px inset #fff;
+    border-radius: 20%;
 }
 
 #info-box3 {
@@ -195,6 +197,7 @@ h1, h2 {
     height: 400px;
     background-color: rgba(255, 142, 0, 0.3);
     border: 6px inset #fff;
+    border-radius: 20%;
     position: relative;
     overflow: hidden;
     top: 20px;
@@ -209,6 +212,7 @@ h1, h2 {
     margin-top: 25px;
     padding: 20px;
     border-radius: 50%;
+    background-color: #3a3a3a;
     border: 6px solid #fff;
     text-align: center;
 }
