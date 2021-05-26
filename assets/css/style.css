@@ -69,6 +69,13 @@ h1, h2 {
     color: #FF858D;
 }
 
+/* adds zoom effect for the nav links*/
+#nav-container li:hover {
+    animation-name: image-zoom2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
 /* Main image for index page*/
 
 #main-image-outer {
