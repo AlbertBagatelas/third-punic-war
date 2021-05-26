@@ -140,6 +140,13 @@ h1, h2 {
     left: 150px;
 }
 
+/* added hover effect for the main image circles */
+#picture-text1:hover {
+    animation-name: image-zoom2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
 #picture-text2 {
     width: 450px;
     height: 450px;
@@ -148,6 +155,13 @@ h1, h2 {
     padding: 0;
     bottom: 30px;
     right: 150px;
+}
+
+/* added hover effect for the main image circles */
+#picture-text2:hover {
+    animation-name: image-zoom2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 .circle-container {
