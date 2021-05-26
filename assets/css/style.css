@@ -262,9 +262,9 @@ h1, h2 {
     background-image: url(../images/romans.jpg);
 }
 
-#roman-image:hover {
-    animation-name: image-zoom;
-    animation-duration: 3s;
+#info-box1:hover {
+    animation-name: image-zoom2;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
 }
 
@@ -275,9 +275,9 @@ h1, h2 {
     background-image: url(../images/carthage-soldiers.jpg) ;
 }
 
-#carthage-image:hover {
-    animation-name: image-zoom;
-    animation-duration: 3s;
+#info-box2:hover {
+    animation-name: image-zoom2;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
 }
 
@@ -288,10 +288,19 @@ h1, h2 {
     background-image: url(../images/battle-of-carthage.jpg);
 }
 
-#battle-image:hover {
-    animation-name: image-zoom;
-    animation-duration: 3s;
+#info-box3:hover {
+    animation-name: image-zoom2;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
+}
+
+@keyframes image-zoom2 {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
 }
 
 /* Video */
