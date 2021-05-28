@@ -194,6 +194,121 @@ h1, h2 {
     transform: translateY(-50%);
 }
 
+/* The general information about the site section*/
+#info-container {
+    width: 100%;
+    height: 700px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#info-box1 {
+    width: 45%;
+    height: 400px;
+    background-color: rgba(255, 142, 0, 0.3);
+    border: 6px inset #fff;
+    border-radius: 20%;
+    position: relative;
+    overflow: hidden;
+    left: 20px;
+}
+
+#info-box2 {
+    width: 45%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    float: right;
+    right: 20px;
+    bottom: 410px;
+    background-color: rgba(255, 142, 0, 0.3);
+    border: 6px inset #fff;
+    border-radius: 20%;
+}
+
+#info-box3 {
+    width: 45%;
+    height: 400px;
+    background-color: rgba(255, 142, 0, 0.3);
+    border: 6px inset #fff;
+    border-radius: 20%;
+    position: relative;
+    overflow: hidden;
+    top: 20px;
+    left: 515px;
+}
+
+.the-info {
+    width: 35%;
+    height: 75%;
+    float: left;
+    margin-left: 35px;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #3a3a3a;
+    border: 6px solid #fff;
+    text-align: center;
+}
+
+.the-info .text-container2 {
+    width: 70%;
+    height: 70%;
+    max-width: 70%;
+    max-height: 70%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 15%;
+    top: 15%;
+    transform-style: preserve-3d;
+}
+
+.main-text2 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#roman-image {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-image: url(../images/romans.jpg);
+}
+
+#info-box1:hover {
+    animation-name: image-zoom2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#carthage-image {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-image: url(../images/carthage-soldiers.jpg) ;
+}
+
+#info-box2:hover {
+    animation-name: image-zoom2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#battle-image {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-image: url(../images/battle-of-carthage.jpg);
+}
+
+#info-box3:hover {
+    animation-name: image-zoom2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
 /* For screen size with a max width of 1200px or less*/
 @media screen and (max-width: 1200px) {
 
@@ -412,6 +527,61 @@ h1, h2 {
     }
     
     #picture-text2 {
+        visibility: hidden;
+    }
+
+    /* information boxes*/
+    #info-container {
+        width: 100%;
+        height: 1000px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #info-box1 {
+        width: 90%;
+        height: 300px;
+        border: 4px inset #fff;
+        left: 10px;
+    }
+    
+    #info-box2 {
+        width: 90%;
+        margin-top: 10px;
+        height: 300px;
+        float: left;
+        left: 10px;
+        border: 4px inset #fff;
+        bottom: 0px;
+    }
+    
+    #info-box3 {
+        width: 90%;
+        height: 300px;
+        border: 4px inset #fff;
+        left: 10px;
+        top: 10px;
+    }
+    
+    .the-info {
+        width: 65%;
+        height: 75%;
+        float: left;
+        margin-left: 35px;
+        margin-top: 10px;
+        padding: 20px;
+        border: 4px solid #fff;
+    }
+    
+    #roman-image {
+        visibility: hidden;
+    }
+    
+    #carthage-image {
+        visibility: hidden;
+    }
+    
+    #battle-image {
         visibility: hidden;
     }
 }
