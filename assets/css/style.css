@@ -23,6 +23,11 @@ h1, h2 {
     color: #fff;
 }
 
+#title-outer {
+    width: 100%;
+    height: auto;
+}
+
 #title {
     text-align: center;
     font-size: 250%;
@@ -32,6 +37,7 @@ h1, h2 {
 /* Navigation bar */
 #nav-container {
     width: 100%;
+    padding-bottom: 20px;
 }
 
 #nav-inner {
@@ -42,10 +48,8 @@ h1, h2 {
 #nav-container li {
     list-style-type: none;
     position: relative;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    left: 675px;
+    margin: 0 0;
+    display: inline-block;
 }
 
 #nav-container a {
@@ -67,6 +71,13 @@ h1, h2 {
 
 #nav-container a:hover {
     color: #FF858D;
+}
+
+/* adds zoom effect for the nav links*/
+#nav-container li:hover {
+    animation-name: image-zoom2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 /* adds zoom effect for the nav links*/
@@ -374,61 +385,114 @@ h1, h2 {
     color: #FF858D;
 }
 
-/* Media screen for screen sizes of 1350px and down */
-@media screen and (max-width: 1350px) {
-    #nav-width {
+/* For screen size with a max width of 725 px or below */
+@media screen and (max-width: 725px) {
+    body {
+        font-weight: 300;
+    }
+
+    /* for the main title of the webpage*/
+    h1, h2 {
+        letter-spacing: 2px;
+    }
+
+    #title-outer {
         width: 100%;
     }
 
-    #nav {
-        letter-spacing: 0px;
-    }
-
-    #nav .col-1 {
-        width: 15%;
-        display: inline-block;
-        padding: 0 0;
-        border: none;
-    }
-}
-
-/*  Media screen for screen sizes 1200px and down */
-@media screen and (max-width: 1200px) {
     #title {
-        font-size: 150%;
+        font-size:125%;
     }
 
-    #nav {
-        letter-spacing: 0px;
-    }
-
-    #nav-width {
+    /* for the navigation */
+    #nav-container {
         width: 100%;
     }
     
-    #nav .col-1 {
-        width: 15%;
-        display: inline-block;
-        padding: 0 0;
-        border: none;
+    #nav-inner {
+        letter-spacing: 1px;
     }
-    #nav a:hover {
-        border: none;
+    
+    #nav-container .button {
+        border: 2px inset #fff;
+        padding: 3px;
     }
 }
 
-/* Media screen for screen widths of 900px or less*/
-@media screen (max-width: 900px) {
-    #nav-width {
-        width: 100%;
-        height: 250px;
-    }
-    
-    #nav li {
-        position: absoluteS;
+
+/* For screen with a max width of 425 px or below */
+@media screen and (max-width: 425px) {
+    body {
+        font-weight: 200;
     }
 
-    #nav .col-1 {
-        width: 25%;
+    /* for the main title of the webpage*/
+    h1, h2 {
+        letter-spacing: 1px;
+    }
+
+    #title-outer {
+        width: 100%;
+    }
+
+    #title {
+        font-size:125%;
+    }
+
+    /* for the navigation */
+    #nav-container {
+        width: 100%;
+    }
+    
+    #nav-inner {
+        letter-spacing: 1px;
+    }
+
+    #nav-container li {
+        padding-bottom: 15px;
+    }
+    
+    #nav-container .button {
+        border: 2px inset #fff;
+        padding: 2px;
+    }
+}
+
+/* For screens with a max width of 375px or below*/
+@media screen and (max-width: 375px) {
+    body {
+        font-weight: 200;
+    }
+
+    /* for the main title of the webpage*/
+    h1, h2 {
+        letter-spacing: 1px;
+    }
+
+    #title-outer {
+        width: 100%;
+    }
+
+    #title {
+        font-size:110%;
+    }
+
+    /* for the navigation */
+    #nav-container {
+        width: 100%;
+    }
+    
+    #nav-inner {
+        letter-spacing: 1px;
+    }
+
+    #nav-container li {
+        padding-bottom: 15px;
+    }
+    
+    #nav-container .button {
+        border: 2px inset #fff;
+        padding: 2px;
+        width: 15%;
     }
 }
