@@ -266,6 +266,37 @@ h1, h2 {
         border: 2px inset #fff;
         padding: 2px;
     }
+
+    /* Main image for index page*/
+
+    #main-image-outer {
+        height: 500px;
+    }
+
+    #main-image {
+        height: 500px;
+        width: 100%;
+    }
+
+    /* cover text for main image*/
+    #picture-text, #picture-text h2 {
+        font-size: 110%;
+    }
+    
+    #picture-text p {
+        font-weight: 100;
+        font-size: 75%;
+    }
+    
+    #picture-text1 {
+        width: 300px;
+        height: 300px;
+        left: 10px;
+    }
+    
+    #picture-text2 {
+        visibility: hidden;
+    }
 }
 
 /* For screens with a max width of 375px or below*/
