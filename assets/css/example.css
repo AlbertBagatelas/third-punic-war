@@ -194,7 +194,29 @@ h1, h2 {
     transform: translateY(-50%);
 }
 
-/* For screen size with a max width of 768*/
+/* For screen size with a max width of 1200px or less*/
+@media screen and (max-width: 1200px) {
+
+    /* cover text for main image*/
+    #picture-text p {
+        font-weight: 100;
+        font-size: 75%;
+    }
+    
+    #picture-text1 {
+        width: 350px;
+        height: 350px;
+        left: 10px;
+    }
+    
+    #picture-text2 {
+        width: 350px;
+        height: 350px;
+        right: 10px;
+    }
+}
+
+/* For screen size with a max width of 768px or less */
 @media screen and (max-width: 768px) {
 
     /* cover text for main image*/

@@ -385,8 +385,54 @@ h1, h2 {
     color: #FF858D;
 }
 
+/* For screen size with a max width of 1200px or less*/
+@media screen and (max-width: 1200px) {
+
+    /* cover text for main image*/
+    #picture-text p {
+        font-weight: 100;
+        font-size: 75%;
+    }
+    
+    #picture-text1 {
+        width: 350px;
+        height: 350px;
+        left: 10px;
+    }
+    
+    #picture-text2 {
+        width: 350px;
+        height: 350px;
+        right: 10px;
+    }
+}
+
+/* For screen size with a max width of 768px or less */
+@media screen and (max-width: 768px) {
+
+    /* cover text for main image*/
+    #picture-text p {
+        font-weight: 100;
+        font-size: 75%;
+    }
+    
+    #picture-text1 {
+        width: 300px;
+        height: 300px;
+        left: 10px;
+    }
+    
+    #picture-text2 {
+        width: 350px;
+        height: 350px;
+        right: 10px;
+        top: 0;
+    }
+}
+
 /* For screen size with a max width of 725 px or below */
 @media screen and (max-width: 725px) {
+
     body {
         font-weight: 300;
     }
@@ -422,6 +468,7 @@ h1, h2 {
 
 /* For screen with a max width of 425 px or below */
 @media screen and (max-width: 425px) {
+
     body {
         font-weight: 200;
     }
@@ -456,10 +503,42 @@ h1, h2 {
         border: 2px inset #fff;
         padding: 2px;
     }
+
+    /* Main image for index page*/
+
+    #main-image-outer {
+        height: 500px;
+    }
+
+    #main-image {
+        height: 500px;
+        width: 100%;
+    }
+
+    /* cover text for main image*/
+    #picture-text, #picture-text h2 {
+        font-size: 110%;
+    }
+    
+    #picture-text p {
+        font-weight: 100;
+        font-size: 75%;
+    }
+    
+    #picture-text1 {
+        width: 300px;
+        height: 300px;
+        left: 10px;
+    }
+    
+    #picture-text2 {
+        visibility: hidden;
+    }
 }
 
 /* For screens with a max width of 375px or below*/
 @media screen and (max-width: 375px) {
+
     body {
         font-weight: 200;
     }
@@ -494,5 +573,36 @@ h1, h2 {
         border: 2px inset #fff;
         padding: 2px;
         width: 15%;
+    }
+
+    /* Main image for index page*/
+
+    #main-image-outer {
+        height: 400px;
+    }
+
+    #main-image {
+        height: 400px;
+        width: 100%;
+    }
+
+    /* cover text for main image*/
+    #picture-text, #picture-text h2 {
+        font-size: 100%;
+    }
+    
+    #picture-text p {
+        font-weight: 100;
+        font-size: 75%;
+    }
+    
+    #picture-text1 {
+        width: 250px;
+        height: 250px;
+        left: 10px;
+    }
+    
+    #picture-text2 {
+        visibility: hidden;
     }
 }
