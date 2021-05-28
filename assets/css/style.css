@@ -515,6 +515,16 @@ h1, h2 {
         width: 100%;
     }
 
+    /* Main image for battle of carthage page */
+    #main-image-outer2 {
+        height: 500px;
+    }
+
+    #main-image2 {
+        height: 500px;
+        width: 100%;
+    }
+
     /* cover text for main image*/
     #picture-text, #picture-text h2 {
         font-size: 110%;
@@ -582,6 +592,16 @@ h1, h2 {
     }
 
     #main-image {
+        height: 400px;
+        width: 100%;
+    }
+
+    /* Main image for battle of carthage page */
+    #main-image-outer2 {
+        height: 400px;
+    }
+
+    #main-image2 {
         height: 400px;
         width: 100%;
     }
