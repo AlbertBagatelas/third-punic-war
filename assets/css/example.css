@@ -1,0 +1,127 @@
+/* Imported google fonts one called Montserrat for the main body of writing and Shadows Into Light font for headings */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shadows+Into+Light&display=swap');
+
+/* A pre seceltor to remove all default borders, margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Main body selectors to set a base standard for the website*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
+/* Heading and Subtitles*/
+h1, h2 {
+    font-family: 'Shadows Into Light', sans-serif;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+#title-outer {
+    width: 100%;
+    height: auto;
+}
+
+#title {
+    text-align: center;
+    font-size: 250%;
+    text-decoration: none;
+}
+
+/* Navigation bar */
+#nav-container {
+    width: 100%;
+}
+
+#nav-inner {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+#nav-container li {
+    list-style-type: none;
+    position: relative;
+    margin: 0 0;
+    display: inline-block;
+}
+
+#nav-container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav-container .button {
+    width: 20%;
+    border: 4px inset #fff;
+    padding: 5px;
+    border-radius: 25%;
+    background-color: rgba(255, 142, 0, 0.3);
+}
+
+#nav-container .current {
+    color: #FF858D;
+}
+
+#nav-container a:hover {
+    color: #FF858D;
+}
+
+/* adds zoom effect for the nav links*/
+#nav-container li:hover {
+    animation-name: image-zoom2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes image-zoom2 {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}
+
+/* For screens with a max width of 320px or below*/
+@media screen and (max-width: 320px) {
+    body {
+        font-weight: 200;
+    }
+
+    /* for the main title of the webpage*/
+    h1, h2 {
+        letter-spacing: 1px;
+    }
+
+    #title-outer {
+        width: 100%;
+    }
+
+    #title {
+        font-size:110%;
+    }
+
+    /* for the navigation */
+    #nav-container {
+        width: 100%;
+    }
+    
+    #nav-inner {
+        letter-spacing: 1px;
+    }
+
+    #nav-container li {
+        padding-bottom: 15px;
+    }
+    
+    #nav-container .button {
+        border: 2px inset #fff;
+        padding: 2px;
+    }
+}
