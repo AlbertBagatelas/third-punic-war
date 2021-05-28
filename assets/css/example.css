@@ -194,9 +194,32 @@ h1, h2 {
     transform: translateY(-50%);
 }
 
+/* For screen size with a max width of 768*/
+@media screen and (max-width: 768px) {
+
+    /* cover text for main image*/
+    #picture-text p {
+        font-weight: 100;
+        font-size: 75%;
+    }
+    
+    #picture-text1 {
+        width: 300px;
+        height: 300px;
+        left: 10px;
+    }
+    
+    #picture-text2 {
+        width: 350px;
+        height: 350px;
+        right: 10px;
+        top: 0;
+    }
+}
 
 /* For screen size with a max width of 725 px or below */
 @media screen and (max-width: 725px) {
+
     body {
         font-weight: 300;
     }
@@ -232,6 +255,7 @@ h1, h2 {
 
 /* For screen with a max width of 425 px or below */
 @media screen and (max-width: 425px) {
+
     body {
         font-weight: 200;
     }
@@ -301,6 +325,7 @@ h1, h2 {
 
 /* For screens with a max width of 375px or below*/
 @media screen and (max-width: 375px) {
+
     body {
         font-weight: 200;
     }
