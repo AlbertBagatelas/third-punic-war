@@ -88,8 +88,46 @@ h1, h2 {
     }
 }
 
-/* For screens with a max width of 320px or below*/
-@media screen and (max-width: 320px) {
+/* For screen with a max width of 425 px or below */
+@media screen and (max-width: 425px) {
+    body {
+        font-weight: 200;
+    }
+
+    /* for the main title of the webpage*/
+    h1, h2 {
+        letter-spacing: 1px;
+    }
+
+    #title-outer {
+        width: 100%;
+    }
+
+    #title {
+        font-size:125%;
+    }
+
+    /* for the navigation */
+    #nav-container {
+        width: 100%;
+    }
+    
+    #nav-inner {
+        letter-spacing: 1px;
+    }
+
+    #nav-container li {
+        padding-bottom: 15px;
+    }
+    
+    #nav-container .button {
+        border: 2px inset #fff;
+        padding: 2px;
+    }
+}
+
+/* For screens with a max width of 375px or below*/
+@media screen and (max-width: 375px) {
     body {
         font-weight: 200;
     }
@@ -123,5 +161,6 @@ h1, h2 {
     #nav-container .button {
         border: 2px inset #fff;
         padding: 2px;
+        width: 15%;
     }
 }
