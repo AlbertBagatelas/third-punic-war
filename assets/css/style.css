@@ -716,7 +716,7 @@ h1, h2 {
         width: 90%;
         height: 300px;
         border: 4px inset #fff;
-        left: 10px;
+        left: 5%;
     }
     
     #info-box2 {
@@ -724,7 +724,7 @@ h1, h2 {
         margin-top: 10px;
         height: 300px;
         float: left;
-        left: 10px;
+        left: 5%;
         border: 4px inset #fff;
         bottom: 0px;
     }
@@ -733,7 +733,7 @@ h1, h2 {
         width: 90%;
         height: 300px;
         border: 4px inset #fff;
-        left: 10px;
+        left: 5%;
         top: 10px;
     }
     
