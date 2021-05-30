@@ -446,6 +446,7 @@ h1, h2 {
     #picture-text p {
         font-weight: 100;
         font-size: 75%;
+        line-height: 15px;
     }
     
     #picture-text1 {
