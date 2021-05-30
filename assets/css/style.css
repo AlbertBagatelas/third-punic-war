@@ -146,6 +146,8 @@ h1, h2 {
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     font-weight: 200;
+    line-height: 25px;
+    font-size: 90%;
 }
 
 #picture-text1 {
