@@ -225,6 +225,7 @@ h1, h2 {
     background-color: rgba(255, 142, 0, 0.3);
     border: 6px inset #fff;
     border-radius: 20%;
+    margin-left: 30px;
     position: relative;
     overflow: hidden;
 }
@@ -235,7 +236,7 @@ h1, h2 {
     position: relative;
     overflow: hidden;
     float: right;
-    right: 20px;
+    right: 30px;
     background-color: rgba(255, 142, 0, 0.3);
     border: 6px inset #fff;
     border-radius: 20%;
@@ -251,6 +252,7 @@ h1, h2 {
     position: relative;
     overflow: hidden;
     float: left;
+    margin-left: 30px;
     margin-top: 20px;
 }
 
@@ -287,7 +289,7 @@ h1, h2 {
 }
 
 #roman-image {
-    width: 50%;
+    width: 45%;
     height: 100%;
     float: right;
     background-image: url(../images/romans.jpg);
@@ -300,7 +302,7 @@ h1, h2 {
 }
 
 #carthage-image {
-    width: 50%;
+    width: 45%;
     height: 100%;
     float: right;
     background-image: url(../images/carthage-soldiers.jpg);
@@ -313,7 +315,7 @@ h1, h2 {
 }
 
 #battle-image {
-    width: 50%;
+    width: 45%;
     height: 100%;
     float: right;
     background-image: url(../images/battle-of-carthage.jpg);
