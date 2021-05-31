@@ -67,6 +67,25 @@ I used the W3C Markup Validator and the W3C CSS Validator to validate that the c
 * I used serprate example html and css file's to test and make changes to the responsivity of the website, to ensure it fully looked How I intended and was responsive 
 * I also asked family to look at the website to help point out any bugs with the website.
 
+## Testing User Stories from the User Experience Goals section
+* Firt Time User Goals
+    1. As a first time visitor, I would like to understand the main purpose of the website and learn more about the Roman's war.
+        1. The main purpose of the website is seen straight away when entering the website from the main image and the Big main Title.
+        1. The Website has enough content to learn about the Third Punic War and the aftermath of the war.
+    1. As a first time visitor, I would like to be able to easily find the main content of the website.
+        1. The websites navigation is clear on what each section entails to ensure full understanding.
+        1. The Form at the bottom of the home page takes the user back to the top of the screen once submitted.
+* Returning User Goals
+    1. As a returning visitor, I would like for the information to remain consistant, so to remain easy to navigate.
+        1. I have made the website consistant with the information given and if any changes are/were made, were kept cosistant.
+    1. As a reurning visitor user, I would like to be able to get in contact with the developer if I have any questions or spot a bug in the website.
+        1. There is a form to get into contact on the home page of the website.
+* Frequent User Goals
+    1. As a Frequent user, I would like for the website to remain consitant with the previous content if the content is later changed
+        1. All content added or changed is consistant with the topic and other content.
+    1. As a Frequent user, I would like for the website to Remain similar in design for when i return.
+        1. Changes that i have made to the website are consistant with the design from previous iterations of the website.
+
 ## Bugs
 * There are currently no known bugs to the website.
 
@@ -83,6 +102,7 @@ This project is deployed to GitHub Pages you can do this by going to-
 ## Credit
 ### Code
 * TO get the writing within the circle's of the page i used this [StackOverflow post](https://stackoverflow.com/questions/16615403/how-to-draw-a-circle-with-text-in-the-middle)
+* The Love Running walkthrough project from the code institute gave me the insparation to use it throughout my website.
 
 ### Content
 * I used [Wikipedia](https://en.wikipedia.org/wiki/Third_Punic_War) for information about the history of the topic.
