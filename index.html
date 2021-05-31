@@ -112,26 +112,26 @@
         <!-- Feedback Form for the footer of the page-->
         <div id="form">
             <form action="maxbagatelas@hotmail.com" method="POST">
-                <fieldset id="left">
+                <fieldset id="detail-form">
                     <legend>Your Details!</legend>
                     <br>
                     <div>
-                        <label for="name">Name</label>
+                        <label for="name">Name:</label>
                         <input id="name" type="text" name="full_name" placeholder="Your Name" required>
                     </div>
                     <div>
-                        <label for="email">Email</label>
+                        <label for="email">Email:</label>
                         <input id="email" type="email" name="email" placeholder="Your Email" required>
                     </div>
                 </fieldset>
 
-                <fieldset id="middle">
+                <fieldset>
                     <legend>What Are Your Thoughts?</legend>
                     <br>
-                    <textarea id="feedback" rows="15" cols="50" name="feedback"></textarea>
+                        <textarea id="feedback" rows="14" cols="50" name="feedback"></textarea>
                 </fieldset>
 
-                <fieldset id="right">
+                <fieldset id="use-form">
                     <legend>How Useful Did You Find The Website?</legend>
                     <br>
                     <input id="not-useful-choice" name="usefulness" value="not-useful" type="radio" required>
@@ -144,9 +144,10 @@
                     <label for="very-useful-choice">Very useful</label>
                 </fieldset>
 
-                <input type="submit" value="Submit Your Feedback">
-                <input type="reset" value="Reset Form"
-
+                <div id="sub-buttons">
+                    <input type="submit" value="Submit Your Feedback">
+                    <input type="reset" value="Reset Form">
+                </div>
             </form>
         </div>
         <!-- links to external sources of information through the footer of the page -->

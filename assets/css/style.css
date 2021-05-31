@@ -349,7 +349,75 @@ h1, h2 {
     margin-left: 5%;
 }
 
-/* The footer of the page */
+/* The form for the footer of the page */
+form {
+    width: 100%;
+    height: 700px;
+    margin-top: 60px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+fieldset {
+    border: none;
+    margin-top: 40px;
+}
+
+#sub-buttons {
+    margin-top: 30px;
+}
+
+input[type=submit] {
+    color: #fff;
+    border: 4px inset #fff;
+    padding: 5px;
+    border-radius: 25%;
+    background-color: rgba(255, 142, 0, 0.3);
+    margin-right: 10px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+input[type=reset] {
+    color: #fff;
+    border: 4px inset #fff;
+    padding: 5px;
+    border-radius: 25%;
+    background-color: rgba(255, 142, 0, 0.3);
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+input[type=text], input[type=email] {
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 200;
+    background-color: rgba(255, 142, 0, 0.3);
+    border-radius: 25%;
+    border: 4px inset #fff;
+    padding: 5px;
+}
+
+input[type=email] {
+    margin-top: 10px;
+}
+
+textarea{
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 200;
+    background-color: rgba(255, 142, 0, 0.3);
+    border-radius: 10%;
+    border: 4px inset #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+}
+
+/* The links for  the footer of the page */
 #links-container {
     background-color: #3a3a3a;
     width: 100%;
