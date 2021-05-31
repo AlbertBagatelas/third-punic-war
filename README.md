@@ -5,6 +5,13 @@ I am for this site to be user friendly and be responsive to all types of devices
 
 View the live project [here](https://albertbagatelas.github.io/third-punic-war/)
 
+## Goals
+* My Goal is to reach for a more mature target audience for the website.
+* One of the goals is for the website to a quick but informative read to ensure that the user understands the basis of the war.
+* Another of my goals is to make the user think about why the war happened.
+* Another goal is to show that the Romans didnt do all good, even though they did bring many benifts to the world like roads and aqueduct systems, they aren't always shown within the media or school with the worse aspects of their lively hood, like with the end of this war with the complete destruction of Carthage and it's people.
+* Another goal is for the website to have videos on it to provide a visuale and audio learning to the user.
+
 ## The Design!
 * Fonts used!
     * The font used throughout the website for the headings is Shadows Into Light, this is to bring a more handwritten feel to    the project which I feel brings a more old fashioned style to the website.
