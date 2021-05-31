@@ -45,9 +45,10 @@ View the live project [here](https://albertbagatelas.github.io/third-punic-war/)
 * [Balsamiq](https://balsamiq.com/) Balsamiq was used to creat my wireframes for my design process to ensure that I had a good base design before starting the project.
 
 ## Testing
-I used the W3C Markup Validator and the W3C CSS Validator to validate that the code that I done to ensure that there were no sytax errors so it was all legal to use.
+I used the W3C Markup Validator and the W3C CSS Validator to validate that the code that I done to ensure that there were no sytax errors so it was all legal to use. Furthermore, I used a website called Responsinator which simulates different devices to check that the website is responsive.
 * [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)- [My Results](assets/images/html-validator-results.PNG)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)- [My Results](assets/images/css-validator-results.PNG)
+* [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Falbertbagatelas.github.io%2Fthird-punic-war%2F)
 
 ## Bugs
 * There are currently no known bugs to the website.
