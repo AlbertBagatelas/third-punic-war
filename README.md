@@ -5,6 +5,34 @@ I am for this site to be user friendly and be responsive to all types of devices
 
 View the live project [here](https://albertbagatelas.github.io/third-punic-war/)
 
+## Pictures of the live website
+![Home Page](./assets/images/home-page1.PNG)
+Format: ![Home Page](url)
+
+![Home Page](./assets/images/home-page2.PNG)
+Format: ![Home Page](url)
+
+![Home Page](./assets/images/home-page3.PNG)
+Format: ![Home Page](url)
+
+![Timeline Page](./assets/images/timeline-page1.PNG)
+Format: ![Timeline Page](url)
+
+![Timeline Page](./assets/images/timeline-page2.PNG)
+Format: ![Timeline Page](url)
+
+![Timeline Page](./assets/images/timeline-page3.PNG)
+Format: ![Timeline Page](url)
+
+![Timeline Page](./assets/images/timeline-page4.PNG)
+Format: ![Timeline Page](url)
+
+![Battle of Carthage Page](./assets/images/battle-of-carthage-page1.PNG)
+Format: ![Battle of Carthage Page](url)
+
+![Battle of Carthage Page](./assets/images/battle-of-carthage-page2.PNG)
+Format: ![Battle of Carthage Page](url)
+
 ## Goals
 * My Goal is to reach for a more mature target audience for the website.
 * One of the goals is for the website to a quick but informative read to ensure that the user understands the basis of the war.
