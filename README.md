@@ -70,6 +70,16 @@ I used the W3C Markup Validator and the W3C CSS Validator to validate that the c
 ## Bugs
 * There are currently no known bugs to the website.
 
+## Deployment
+### GitHub pages
+This project is deployed to GitHub Pages you can do this by going to-
+ 1. Log on to your GitHub account and go to the repository
+ 1. Once inside the repository locate and go onto the settings menu
+ 1. On the left had side of the page their will be maore options click the one that says Pages
+ 1. Under the source section click the drop down menu called 'None' and select 'Master Branch'
+ 1. The page will refresh
+ 1. Then if you go back down the live project will be linked in the pages section
+
 ## Credit
 ### Code
 * TO get the writing within the circle's of the page i used this [StackOverflow post](https://stackoverflow.com/questions/16615403/how-to-draw-a-circle-with-text-in-the-middle)
