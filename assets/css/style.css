@@ -884,6 +884,14 @@ input[type="radio"] {
     }
 }
 
+/* For Screens with a max width of 390px or less*/
+@media screen and (max-width: 390px) {
+    .main-text2 {
+        font-size: 65%;
+        line-height: 13px;
+    }
+}
+
 /* For screens with a max width of 375px or below*/
 @media screen and (max-width: 375px) {
 
