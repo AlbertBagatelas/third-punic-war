@@ -150,8 +150,9 @@ Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credit
 ### Code
-* TO get the writing within the circle's of the page i used this [StackOverflow post](https://stackoverflow.com/questions/16615403/how-to-draw-a-circle-with-text-in-the-middle)
+* To get the writing within the circle's of the page i used this [StackOverflow post](https://stackoverflow.com/questions/16615403/how-to-draw-a-circle-with-text-in-the-middle)
 * The Love Running walkthrough project from the code institute gave me the insparation to use it throughout my website.
+* To create the copyright for bottome of the page i got help using [this.](https://www.html.am/html-codes/character-codes/html-copyright-code.cfm)
 
 ### Content
 * I used [Wikipedia](https://en.wikipedia.org/wiki/Third_Punic_War) for information about the history of the topic.
