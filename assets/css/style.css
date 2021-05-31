@@ -17,17 +17,21 @@ body {
 }
 
 /* Heading and Subtitles*/
+/* This sets the color and font and letter spacing for the Headings */
 h1, h2 {
     font-family: 'Shadows Into Light', sans-serif;
     letter-spacing: 3px;
     color: #fff;
 }
 
+/* Main Title */
+/* Sets the width and the height of the area around the title  */
 #title-outer {
     width: 100%;
     height: auto;
 }
 
+/* This aligns the main title in the center of the screen and makes the font bigger and removes any pre-requisite decoration  */
 #title {
     text-align: center;
     font-size: 250%;
@@ -35,16 +39,19 @@ h1, h2 {
 }
 
 /* Navigation bar */
+/* Sets the base width of the nav area and applies some padding */
 #nav-container {
     width: 100%;
     padding-bottom: 20px;
 }
 
+/* This aligns the nav to the middle of the screen and spaces the letters out */
 #nav-inner {
     text-align: center;
     letter-spacing: 3px;
 }
 
+/* This makes the nav appear across the screen and removes and pre-requisite decoration and margins */
 #nav-container li {
     list-style-type: none;
     position: relative;
@@ -52,11 +59,13 @@ h1, h2 {
     display: inline-block;
 }
 
+/* this sets the color of the text and removes the text decoration */
 #nav-container a {
     text-decoration: none;
     color: #fff;
 }
 
+/* This sets the width of each nav button and makes them display in a button shape */
 #nav-container .button {
     width: 20%;
     border: 4px inset #fff;
@@ -65,22 +74,17 @@ h1, h2 {
     background-color: rgba(255, 142, 0, 0.3);
 }
 
+/* This makes the nav that is in use for the page that is in use changes the text color */
 #nav-container .current {
     color: #FF858D;
 }
 
+/* This changes the color of the text when hovering over the nav links */
 #nav-container a:hover {
     color: #FF858D;
 }
 
-/* adds zoom effect for the nav links*/
-#nav-container li:hover {
-    animation-name: image-zoom2;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-}
-
-/* adds zoom effect for the nav links*/
+/* adds zoom effect for the nav links when hovering over it */
 #nav-container li:hover {
     animation-name: image-zoom2;
     animation-duration: 1s;
@@ -88,7 +92,7 @@ h1, h2 {
 }
 
 /* Main image for index page*/
-
+/* This sets the main width for the main image container and sets the height this also hides any overflow of the zoom effect */
 #main-image-outer {
     height: 650px;
     width: 100%;
@@ -96,6 +100,7 @@ h1, h2 {
     position: relative;
 }
 
+/* this sets the width for main image and the height and adds the main image and adds the zoom effect for when entering the website */
 #main-image {
     height: 650px;
     width: 100%;
@@ -107,6 +112,7 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
+/* This is the animation setting for the main images  */
 @keyframes image-zoom {
     from{
         transform: scale(1);
@@ -117,6 +123,7 @@ h1, h2 {
 }
 
 /* Main image for battle of carthage page */
+/* This sets the main width for the main image container and sets the height this also hides any overflow of the zoom effect for the battle of carthage page*/
 #main-image-outer2 {
     height: 650px;
     width: 100%;
@@ -124,6 +131,7 @@ h1, h2 {
     position: relative;
 }
 
+/* this sets the width for main image and the height and adds the main image and adds the zoom effect for when entering the website for the battle of carthage page*/
 #main-image2 {
     height: 650px;
     width: 100%;
@@ -136,12 +144,13 @@ h1, h2 {
 }
 
 /* Cover text of the main iamge */
-
+/* this adds the color and the font family to the picture text circles for the headings */
 #picture-text, #picture-text h2 {
     color: #fff;
     font-family: 'Shadows Into Light', sans-serif;
 }
 
+/* this sests the font family, color, size, weight and the space between the lines  */
 #picture-text p {
     font-family: 'Montserrat', sans-serif;
     color: #fff;
@@ -150,6 +159,7 @@ h1, h2 {
     font-size: 90%;
 }
 
+/* This sets the main width and height of the circles contaier and removes any padding or margins and sets its position on the main image */
 #picture-text1 {
     width: 450px;
     height: 450px;
@@ -167,6 +177,7 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
+/* This sets the main width and height of the circles contaier and removes any padding or margins and sets its position on the main image */
 #picture-text2 {
     width: 450px;
     height: 450px;
@@ -184,6 +195,7 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
+/* this sets the width and height to max of the container it is in and makes it into a circle and sets the background color of it and makes it semi see through to see the main image */
 .circle-container {
     width: 100%;
     height: 100%;
@@ -193,6 +205,7 @@ h1, h2 {
     padding: 0;
 }
 
+/* this sets a container in the circle to help allow the text to stay within the middle */
 #picture-text .text-container {
     width: 70%;
     height: 70%;
@@ -206,6 +219,7 @@ h1, h2 {
     transform-style: preserve-3d;
 }
 
+/* this aligns the text to the center and also helps to keep text in the middle */
 .main-text {
     text-align: center;
     position: relative;
@@ -214,6 +228,7 @@ h1, h2 {
 }
 
 /* The general information about the site section*/
+/* this sets the width and the height of the container of the info boxes to allow for enough space for then and allows space at the top to distance from the main image */
 #info-container {
     width: 100%;
     height: 1260px;
@@ -221,6 +236,7 @@ h1, h2 {
     margin-top: 20px;
 }
 
+/* This makes the main info box into the correct size and sets them into a tablet style shape and sets where they are positioned on the screen */
 #info-box1 {
     width: 50%;
     height: 400px;
@@ -232,6 +248,7 @@ h1, h2 {
     overflow: hidden;
 }
 
+/* This makes the main info box into the correct size and sets them into a tablet style shape and sets where they are positioned on the screen */
 #info-box2 {
     width: 50%;
     height: 400px;
@@ -245,6 +262,7 @@ h1, h2 {
     margin-top: 20px;
 }
 
+/* This makes the main info box into the correct size and sets them into a tablet style shape and sets where they are positioned on the screen */
 #info-box3 {
     width: 50%;
     height: 400px;
@@ -258,6 +276,7 @@ h1, h2 {
     margin-top: 20px;
 }
 
+/* This sets the area of the info area in the info boxes and makes them into a circle with background color and border */
 .the-info {
     width: 35%;
     height: 75%;
@@ -271,6 +290,7 @@ h1, h2 {
     text-align: center;
 }
 
+/* this makes the info stay inside of the circle area of the info box  */
 .the-info .text-container2 {
     width: 70%;
     height: 70%;
@@ -284,6 +304,7 @@ h1, h2 {
     transform-style: preserve-3d;
 }
 
+/* this also keeps the text in the circle area of the info box and sets a font size and line height */
 .main-text2 {
     position: relative;
     top: 50%;
@@ -292,11 +313,13 @@ h1, h2 {
     line-height: 15px;
 }
 
+/* this sets the text color of a link tag and removes any decoration */
 .main-text2 a {
     color: #FF858D;
     text-decoration: none;
 }
 
+/* this sets where the image is in the info box and sets size */
 #roman-image {
     width: 45%;
     height: 100%;
@@ -304,12 +327,14 @@ h1, h2 {
     background-image: url(../images/romans.jpg);
 }
 
+/* this makes the info box zoom when you hover over it */
 #info-box1:hover {
     animation-name: image-zoom2;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
+/* this sets where the image is in the info box and sets size */
 #carthage-image {
     width: 45%;
     height: 100%;
@@ -317,12 +342,14 @@ h1, h2 {
     background-image: url(../images/carthage-soldiers.jpg);
 }
 
+/* this makes the info box zoom when you hover over it */
 #info-box2:hover {
     animation-name: image-zoom2;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
+/* this sets where the image is in the info box and sets size */
 #battle-image {
     width: 45%;
     height: 100%;
@@ -330,12 +357,14 @@ h1, h2 {
     background-image: url(../images/battle-of-carthage.jpg);
 }
 
+/* this makes the info box zoom when you hover over it */
 #info-box3:hover {
     animation-name: image-zoom2;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
+/* this is an animation effect */
 @keyframes image-zoom2 {
     from{
         transform: scale(1);
@@ -346,17 +375,20 @@ h1, h2 {
 }
 
 /* Video */
+/* this sets the containers width and height of the iframe */
 #video {
     margin-top: 40px;
     width: 100%;
     height: 700px;
 }
 
+/* this sets the margin to the left to center the iframe */
 #video iframe {
     margin-left: 5%;
 }
 
 /* The form for the footer of the page */
+/* this sets the width and height of the container of the form  */
 #form-outer {
     width: 100%;
     height: 800px;
@@ -364,6 +396,7 @@ h1, h2 {
     position: relative;
 }
 
+/* this makes there be a background image for the form and sets the height and width */
 #form {
     width: 100%;
     height: 800px;
@@ -373,6 +406,7 @@ h1, h2 {
     padding-top: 20px;
 }
 
+/* this sets the forms width and height and aligns it in the middle and spaces out the letters */
 form {
     width: 100%;
     height: 700px;
@@ -380,15 +414,18 @@ form {
     letter-spacing: 3px;
 }
 
+/* the removes borders and adds a top margin for each feildset for space inbetween each */
 fieldset {
     border: none;
     margin-top: 50px;
 }
 
+/* this makes the sub button and reset button have space on the top to create space for them */
 #sub-buttons {
     margin-top: 30px;
 }
 
+/* this makes sets the color of the writing and makes the submit button into buttons in the same style as the nav buttons */
 input[type=submit] {
     color: #fff;
     border: 4px inset #fff;
@@ -400,6 +437,7 @@ input[type=submit] {
     font-weight: 200;
 }
 
+/* this makes sets the color of the writing and makes the reset button into buttons in the same style as the nav buttons */
 input[type=reset] {
     color: #fff;
     border: 4px inset #fff;
@@ -410,6 +448,7 @@ input[type=reset] {
     font-weight: 200;
 }
 
+/* this sets the color for the writing and styles the feilds in the same shape of the nav buttons for a set style amongst the form */
 input[type=text], input[type=email] {
     color: #fff;
     letter-spacing: 2px;
@@ -420,10 +459,12 @@ input[type=text], input[type=email] {
     padding: 5px;
 }
 
+/* this sets the email input with a top margin to create space between each input */
 input[type=email] {
     margin-top: 10px;
 }
 
+/* this sets the color of the text in the text area and sets the same style of the buttons to create a similar style this also aligns the text in the center */
 textarea{
     color: #fff;
     letter-spacing: 2px;
@@ -435,11 +476,13 @@ textarea{
     text-align: center;
 }
 
+/* this sets the radios buttons to have some space inbetween each other */
 input[type="radio"] {
     margin-left: 10px;
 }
 
 /* The links for  the footer of the page */
+/* this sets the width and height and background color for the footer links area and a top margin to create space between the links and the forms area */
 #links-container {
     background-color: #3a3a3a;
     width: 100%;
@@ -447,11 +490,13 @@ input[type="radio"] {
     margin-top: 56px;
 }
 
+/* this sets the lnks in the center of the screen and spaces the letters */
 #links-inner {
     text-align: center;
     letter-spacing: 3px;
 }
 
+/* this sets the links across the screen and removes any decorations */
 #links-container li {
     list-style-type: none;
     position: relative;
@@ -460,11 +505,13 @@ input[type="radio"] {
     margin-top: 10px;
 }
 
+/* sets color of the text and removes the decoration */
 #links-container a {
     text-decoration: none;
     color: #fff;
 }
 
+/* this sets the width of the links button and creats them into a button shape */
 #links-container .button {
     width: 20%;
     border: 4px inset #fff;
@@ -473,10 +520,12 @@ input[type="radio"] {
     background-color: rgba(255, 142, 0, 0.3);
 }
 
+/* this changes the color of the text when they are hovered over */
 #links-container a:hover {
     color: #FF858D;
 }
 
+/* this makes the buttons zoom out when hovered over */
 #links-container li:hover {
     animation-name: image-zoom2;
     animation-duration: 1s;
@@ -484,6 +533,7 @@ input[type="radio"] {
 }
 
 /* The copyright section of the footer*/
+/* this makes the copyright go to the center of the screen and changes the font size to be smaller and creates a margin at the bottom to creat space between them */
 #copyright {
     text-align: center;
     margin-bottom: 10px;
@@ -492,7 +542,9 @@ input[type="radio"] {
 
 /* For scren six with a max width of 1300px or less*/
 @media screen and (max-width: 1300px) {
+    
     /* information boxes*/
+    /* this resizes the info box container sizes and centers them in the screen */
     #info-container {
         width: 100%;
         height: 1245px;
@@ -500,6 +552,7 @@ input[type="radio"] {
         text-align: center;
     }
 
+    /* this makes info box a little smaller in height and changes the width to across the screen and a margin left to help center it */
     #info-box1 {
         width: 90%;
         height: 400px;
@@ -508,6 +561,7 @@ input[type="radio"] {
         left: 5%;
     }
     
+    /* this makes info box a little smaller in height and changes the width to across the screen and a margin left to help center it */
     #info-box2 {
         width: 90%;
         margin-top: 15px;
@@ -519,6 +573,7 @@ input[type="radio"] {
         bottom: 0px;
     }
     
+    /* this makes info box a little smaller in height and changes the width to across the screen and a margin left to help center it */
     #info-box3 {
         width: 90%;
         height: 400px;
@@ -528,6 +583,7 @@ input[type="radio"] {
         top: 15px;
     }
     
+    /* this resizes the info section of the info boxes */
     .the-info {
         width: 35%;
         height: 75%;
@@ -543,18 +599,21 @@ input[type="radio"] {
 @media screen and (max-width: 1200px) {
 
     /* cover text for main image*/
+    /* this resizes the text for smaller screens for the circles in the main image*/
     #picture-text p {
         font-weight: 100;
         font-size: 75%;
         line-height: 15px;
     }
     
+    /* this resizes the circles on the main image */
     #picture-text1 {
         width: 350px;
         height: 350px;
         left: 10px;
     }
     
+    /* this resizes the circles on the main image */
     #picture-text2 {
         width: 350px;
         height: 350px;
@@ -564,6 +623,8 @@ input[type="radio"] {
 
 /* For screen size with a max width of 860px or less*/
 @media screen and (max-width:860px) {
+
+    /* this changes the text for the circles in the info boxes */
     .main-text2 {
         line-height: 18px;
         font-size: 75%;
@@ -574,25 +635,29 @@ input[type="radio"] {
 @media screen and (max-width: 768px) {
 
     /* cover text for main image*/
+    /* this resizes the text for the circles on the main image */
     #picture-text p {
         font-weight: 100;
         font-size: 75%;
     }
     
+    /* this resizes the circles on the main image and there positioning */
     #picture-text1 {
         width: 300px;
         height: 300px;
         left: 10px;
     }
     
+    /* this resizes the circles on the main image and there positioning */
     #picture-text2 {
         width: 350px;
         height: 350px;
         right: 10px;
-        top: 0;
+        top: 0px;
     }
 
     /* information boxes*/
+    /* this sets the size the width and height of the container of the info boxes and centers them */
     #info-container {
         width: 100%;
         height: 1245px;
@@ -600,6 +665,7 @@ input[type="radio"] {
         text-align: center;
     }
 
+    /* this sets the size of the info boxes and helps to center them */
     #info-box1 {
         width: 90%;
         height: 400px;
@@ -607,6 +673,7 @@ input[type="radio"] {
         left: 30px;
     }
     
+    /* this sets the size of the info boxes and helps to center them */
     #info-box2 {
         width: 90%;
         margin-top: 15px;
@@ -617,6 +684,7 @@ input[type="radio"] {
         bottom: 0px;
     }
     
+    /* this sets the size of the info boxes and helps to center them */
     #info-box3 {
         width: 90%;
         height: 400px;
@@ -625,11 +693,13 @@ input[type="radio"] {
         top: 15px;
     }
 
+    /* this changes the main text size for the info box circles */
     .main-text2 {
         font-size: 65%;
         line-height: 15px;
     }
     
+    /* this sets the size of the circles are in the info boxes */
     .the-info {
         width: 35%;
         height: 75%;
@@ -644,32 +714,39 @@ input[type="radio"] {
 /* For screen size with a max width of 725 px or below */
 @media screen and (max-width: 725px) {
 
+    /* this changes the main text font weight for the body */
     body {
         font-weight: 300;
     }
 
     /* for the main title of the webpage*/
+    /* this adjusts the letter spacing the for the header elements */
     h1, h2 {
         letter-spacing: 2px;
     }
 
+    /* this sets the title containers width */
     #title-outer {
         width: 100%;
     }
 
+    /* this changes the font size for the title */
     #title {
         font-size:125%;
     }
 
     /* for the navigation */
+    /* this sets the new nav container width */
     #nav-container {
         width: 100%;
     }
     
+    /* this changes the letter spacing for the nav bar */
     #nav-inner {
         letter-spacing: 1px;
     }
     
+    /* this changes the nav buttons size */
     #nav-container .button {
         border: 2px inset #fff;
         padding: 3px;
@@ -680,6 +757,7 @@ input[type="radio"] {
 @media screen and (max-width: 620px) {
 
     /* information boxes*/
+    /* this sets the info boxes containers size and centers the info boxes */
     #info-container {
         width: 100%;
         height: 1245px;
@@ -687,6 +765,7 @@ input[type="radio"] {
         text-align: center;
     }
 
+    /* this sets the size info box size and helps to center them */
     #info-box1 {
         width: 90%;
         height: 400px;
@@ -694,6 +773,7 @@ input[type="radio"] {
         left: 5%;
     }
     
+    /* this sets the size info box size and helps to center them */
     #info-box2 {
         width: 90%;
         margin-top: 10px;
@@ -704,6 +784,7 @@ input[type="radio"] {
         bottom: 0px;
     }
     
+    /* this sets the size info box size and helps to center them */
     #info-box3 {
         width: 90%;
         height: 400px;
@@ -712,6 +793,7 @@ input[type="radio"] {
         top: 10px;
     }
     
+    /* this sets the size of the circles of the info boxes */
     .the-info {
         width: 65%;
         height: 75%;
@@ -722,24 +804,29 @@ input[type="radio"] {
         border: 4px solid #fff;
     }
     
+    /* this makes the image for the info boxes invisible */
     #roman-image {
         visibility: hidden;
     }
     
+    /* this makes the image for the info boxes invisible */
     #carthage-image {
         visibility: hidden;
     }
     
+    /* this makes the image for the info boxes invisible */
     #battle-image {
         visibility: hidden;
     }
 
     /* For video */
+    /* this sets the video container height and top margin to create space */
     #video {
         height: 420px;
         margin-top: 20px;
     }
 
+    /* this sets the height of the iframe */
     #video iframe {
         height: 400px;
     }
@@ -747,15 +834,19 @@ input[type="radio"] {
 
 /* for screen with a max width of 460px or less*/
 @media screen and (max-width: 460px) {
+
     /* The form for the footer of the page */
+    /* this sets the letter spacing for the form */
     form {
         letter-spacing: 1px;
     }
 
+    /* this sets the font weight of the submit button */
     input[type=submit] {
         font-weight: 100;
     }
 
+    /* this sets the font weight of the reset button */
     input[type=reset] {
         font-weight: 100;
     }
@@ -764,73 +855,87 @@ input[type="radio"] {
 /* For screen with a max width of 425 px or below */
 @media screen and (max-width: 425px) {
 
+    /* this sets the main text font wieght */
     body {
         font-weight: 200;
     }
 
     /* for the main title of the webpage*/
+    /* this sets the letter spacing for the headings */
     h1, h2 {
         letter-spacing: 1px;
     }
 
+    /* this sets the titles containers main width */
     #title-outer {
         width: 100%;
     }
 
+    /* this sets the title font size */
     #title {
         font-size:125%;
     }
 
     /* for the navigation */
+    /* this sets the nav containers width */
     #nav-container {
         width: 100%;
     }
     
+    /* this sets the letter spacing of the buttons text */
     #nav-inner {
         letter-spacing: 1px;
     }
 
+    /* this sets the bottom padding for the nav bar to create space */
     #nav-container li {
         padding-bottom: 15px;
     }
     
+    /* this changes the buttons size to better fit the screen */
     #nav-container .button {
         border: 2px inset #fff;
         padding: 2px;
     }
 
     /* Main image for index page*/
-
+    /* this sets the main image containers height */
     #main-image-outer {
         height: 500px;
     }
 
+    /* this sets the new height and width of the main image */
     #main-image {
         height: 500px;
         width: 100%;
     }
 
     /* cover text for main image*/
+    /* this changes the font size of the main image circles headings */
     #picture-text, #picture-text h2 {
         font-size: 110%;
     }
     
+    /* this changes the font wieght and the font size of the text in the main image circles */
     #picture-text p {
         font-weight: 100;
         font-size: 75%;
     }
     
+    /* this changes the size of the main image circle */
     #picture-text1 {
         width: 300px;
         height: 300px;
         left: 10px;
     }
     
+    /* this hides one of the main image circles */
     #picture-text2 {
         visibility: hidden;
     }
 
     /* information boxes*/
+    /* this sets the info box containers width and height and centers them */
     #info-container {
         width: 100%;
         height: 1000px;
@@ -838,6 +943,7 @@ input[type="radio"] {
         text-align: center;
     }
 
+    /* this sets the width and height of the info boxs and helps to center them in the screen */
     #info-box1 {
         width: 90%;
         height: 300px;
@@ -845,6 +951,7 @@ input[type="radio"] {
         left: 5%;
     }
     
+    /* this sets the width and height of the info boxs and helps to center them in the screen */
     #info-box2 {
         width: 90%;
         margin-top: 10px;
@@ -855,6 +962,7 @@ input[type="radio"] {
         bottom: 0px;
     }
     
+    /* this sets the width and height of the info boxs and helps to center them in the screen */
     #info-box3 {
         width: 90%;
         height: 300px;
@@ -863,6 +971,7 @@ input[type="radio"] {
         top: 10px;
     }
     
+    /* this sets the size of the circles in the info boxs */
     .the-info {
         width: 65%;
         height: 75%;
@@ -873,19 +982,23 @@ input[type="radio"] {
         border: 4px solid #fff;
     }
 
+    /* this sets the font size and line height of the text in the info box containers */
     .main-text2 {
         line-height: 15px;
         font-size: 70%;
     }
     
+    /* this hides the image in the info box */
     #roman-image {
         visibility: hidden;
     }
     
+    /* this hides the image in the info box */
     #carthage-image {
         visibility: hidden;
     }
     
+    /* this hides the image in the info box */
     #battle-image {
         visibility: hidden;
     }
@@ -893,6 +1006,8 @@ input[type="radio"] {
 
 /* For Screens with a max width of 390px or less*/
 @media screen and (max-width: 390px) {
+
+    /* this changes the fotn size and line height of the text in the circles of the info boxes */
     .main-text2 {
         font-size: 65%;
         line-height: 13px;
@@ -902,36 +1017,44 @@ input[type="radio"] {
 /* For screens with a max width of 375px or below*/
 @media screen and (max-width: 375px) {
 
+    /* this changes the font wight of the text */
     body {
         font-weight: 200;
     }
 
     /* for the main title of the webpage*/
+    /* this changes the letter spacing of the headings */
     h1, h2 {
         letter-spacing: 1px;
     }
 
+    /* this changes the titles container width */
     #title-outer {
         width: 100%;
     }
 
+    /* this changes the font size of the title */
     #title {
         font-size:110%;
     }
 
     /* for the navigation */
+    /* this changes the nav containers width */
     #nav-container {
         width: 100%;
     }
     
+    /* this makes the letter spacing smaller for the text for the nav buttons */
     #nav-inner {
         letter-spacing: 1px;
     }
 
+    /* this creates space between for the nav buttons */
     #nav-container li {
         padding-bottom: 15px;
     }
     
+    /* this changes the size of the buttons for the nav */
     #nav-container .button {
         border: 2px inset #fff;
         padding: 2px;
@@ -939,37 +1062,43 @@ input[type="radio"] {
     }
 
     /* Main image for index page*/
-
+    /* this changes the main image containers height */
     #main-image-outer {
         height: 400px;
     }
 
+    /* this changes the width and height of the main images */
     #main-image {
         height: 400px;
         width: 100%;
     }
 
     /* cover text for main image*/
+    /* this changes the font size of the headins for the main image circles */
     #picture-text, #picture-text h2 {
         font-size: 100%;
     }
     
+    /* this changes the font weight and size of the main text for the main image circles */
     #picture-text p {
         font-weight: 100;
         font-size: 75%;
     }
     
+    /* this changes the size of the main image circles */
     #picture-text1 {
         width: 250px;
         height: 250px;
         left: 10px;
     }
     
+    /* this hides one of the main image circles */
     #picture-text2 {
         visibility: hidden;
     }
 
     /* information boxes*/
+    /* this changes the info boxes container and helps to align them */
     #info-container {
         width: 100%;
         height: 1000px;
@@ -977,6 +1106,7 @@ input[type="radio"] {
         text-align: center;
     }
 
+    /* this sets the size of the info boxes and helps to center them */
     #info-box1 {
         width: 90%;
         height: 300px;
@@ -984,6 +1114,7 @@ input[type="radio"] {
         left: 5%;
     }
     
+    /* this sets the size of the info boxes and helps to center them */
     #info-box2 {
         width: 90%;
         margin-top: 10px;
@@ -994,6 +1125,7 @@ input[type="radio"] {
         bottom: 0px;
     }
     
+    /* this sets the size of the info boxes and helps to center them */
     #info-box3 {
         width: 90%;
         height: 300px;
@@ -1002,6 +1134,7 @@ input[type="radio"] {
         top: 10px;
     }
     
+    /* this sets the size of the circle in the info boxes */
     .the-info {
         width: 65%;
         height: 75%;
@@ -1012,32 +1145,39 @@ input[type="radio"] {
         border: 4px solid #fff;
     }
 
+    /* this sets the font size and line height of the text in the circles of the info boxes */
     .main-text2 {
         font-size: 60%;
         line-height: 13px;
     }
     
+    /* this hides the image of the info boxes */
     #roman-image {
         visibility: hidden;
     }
     
+    /* this hides the image of the info boxes */
     #carthage-image {
         visibility: hidden;
     }
     
+    /* this hides the image of the info boxes */
     #battle-image {
         visibility: hidden;
     }
 
     /* The form for the footer of the page */
+    /* this reduces the letter spacing of the form to create space */
     form {
         letter-spacing: 0px;
     }
 
+    /* this creates space for the submit button */
     input[type=submit] {
         margin-right: 5px;
     }
 
+    /* this creats space for the radio buttons */
     input[type="radio"] {
         margin-left: 5px;
     }
