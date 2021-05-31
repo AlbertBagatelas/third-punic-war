@@ -117,12 +117,36 @@ I used the W3C Markup Validator and the W3C CSS Validator to validate that the c
 ## Deployment
 ### GitHub pages
 This project is deployed to GitHub Pages you can do this by going to-
- 1. Log on to your GitHub account and go to the repository
+ 1. Log on to your GitHub account and go to the [GitHub repository](https://github.com/AlbertBagatelas/third-punic-war)
  1. Once inside the repository locate and go onto the settings menu
  1. On the left had side of the page their will be maore options click the one that says Pages
  1. Under the source section click the drop down menu called 'None' and select 'Master Branch'
  1. The page will refresh
  1. Then if you go back down the live project will be linked in the pages section
+
+ ### Forking the GitHub Repository
+ When forking the repository you make a copy of the original repository on your GitHub account to veiw and/or make changes to so it doesnt effect the original. you do this by dong -
+ 1. Log on to GitHub and locate the [GitHub Repository](https://github.com/AlbertBagatelas/third-punic-war)
+ 1. At the top of the repository above the settings button, locate the fork button.
+ 1. You should now have a copy of the original repository in your GitHub account.
+
+ ### Making a Local Clone
+ 1. Log on to GitHub and locate the [GitHub Repository](https://github.com/AlbertBagatelas/third-punic-war)
+ 1. Under the repository name, click 'Clone or Download'
+ 1. To clone the repository using HTTPS, under 'Clone with HTTPS', copy the link.
+ 1. Open Git Bash
+ 1. Change the current working directory to the location where you want the cloned directory to be made.
+ 1. Type git clone, and then paste the URL you copied in step 3.
+ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+ 1. Press Enter. Your local clone will be created.
+ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+
+Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credit
 ### Code
