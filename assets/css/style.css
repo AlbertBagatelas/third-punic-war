@@ -371,12 +371,7 @@ h1, h2 {
     background-image: url(../images/form-background.png);
     position: relative;
     margin-top: 60px;
-}
-
-#form:hover {
-    animation-name: image-zoom2;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+    padding-top: 20px;
 }
 
 form {
@@ -749,10 +744,6 @@ input[type="radio"] {
     /* The form for the footer of the page */
     form {
         letter-spacing: 1px;
-    }
-
-    #form:hover {
-        animation-name: none;
     }
 
     input[type=submit] {
