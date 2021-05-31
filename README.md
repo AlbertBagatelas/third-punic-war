@@ -12,6 +12,17 @@ View the live project [here](https://albertbagatelas.github.io/third-punic-war/)
 * Another goal is to show that the Romans didnt do all good, even though they did bring many benifts to the world like roads and aqueduct systems, they aren't always shown within the media or school with the worse aspects of their lively hood, like with the end of this war with the complete destruction of Carthage and it's people.
 * Another goal is for the website to have videos on it to provide a visuale and audio learning to the user.
 
+## User Experience Goals
+* First Time User Goals-
+    * As a first time visitor, I would like to understand the main purpose of the website and learn more about the Roman's war.
+    * As a first time visitor, I would like to be able to easily find the main content of the website.
+* Returning  User Goals-
+    * As a returning visitor, I would like for the information to remain consistant, so to remain easy to navigate.
+    * As a reurning visitor user, I would like to be able to get in contact with the developer if I have any questions or spot a bug in the website.
+* Frequent User goals-
+    * As a Frequent user, I would like for the website to remain consitant with the previous content if the content is later changed
+    * As a Frequent user, I would like for the website to Remain similar in design for when i return.
+
 ## The Design!
 * Fonts used!
     * The font used throughout the website for the headings is Shadows Into Light, this is to bring a more handwritten feel to    the project which I feel brings a more old fashioned style to the website.
