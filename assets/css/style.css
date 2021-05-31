@@ -163,7 +163,7 @@ h1, h2 {
 /* added hover effect for the main image circles */
 #picture-text1:hover {
     animation-name: image-zoom2;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
@@ -180,7 +180,7 @@ h1, h2 {
 /* added hover effect for the main image circles */
 #picture-text2:hover {
     animation-name: image-zoom2;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
@@ -306,7 +306,7 @@ h1, h2 {
 
 #info-box1:hover {
     animation-name: image-zoom2;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
@@ -319,7 +319,7 @@ h1, h2 {
 
 #info-box2:hover {
     animation-name: image-zoom2;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
@@ -332,7 +332,7 @@ h1, h2 {
 
 #info-box3:hover {
     animation-name: image-zoom2;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
