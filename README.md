@@ -51,3 +51,28 @@ I used the W3C Markup Validator and the W3C CSS Validator to validate that the c
 
 ## Bugs
 * There are currently no known bugs to the website.
+
+## Credit
+### Code
+* TO get the writing within the circle's of the page i used this [StackOverflow post](https://stackoverflow.com/questions/16615403/how-to-draw-a-circle-with-text-in-the-middle)
+
+### Content
+* I used [Wikipedia](https://en.wikipedia.org/wiki/Third_Punic_War) for information about the history of the topic.
+* I used [History](https://www.history.com/topics/ancient-history/punic-wars#:~:text=In%20149%20B.C.%2C%20after%20Carthage,beginning%20the%20Third%20Punic%20War.) for information about the history of the topic.
+* I used two different color pickers to have a external look for the colors which would then give me the code for the colors-
+    * For the hex color codes I used [HTML color codes](https://htmlcolorcodes.com/)
+    * For the RGB color codes I used [W3Schools](https://www.w3schools.com/colors/colors_rgb.asp)
+
+### Media
+* I got my videos from Youtube the timeline one form [here](https://www.youtube.com/watch?v=T2lqdjy51o0) and the battle of carthage one from [here](https://www.youtube.com/watch?v=MRJcFA5xAfI)
+* My images for the website here-
+    * [here](https://weaponsandwarfare.files.wordpress.com/2019/09/a3da8a0ad103a509b6f34f7aaf89367d.jpg?w=1920)
+    * [here](https://images.gamewatcherstatic.com/image/file/7/64/22717/0026138.jpg)
+    * [here](https://www.learnreligions.com/thmb/_vMQjTJ-mTKbVlOV1odFpnpXY3c=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/Centurion-GettyImages-167132808-56cc6c345f9b5879cc58f8e7.jpg)
+    * [here](https://i.pinimg.com/474x/3c/25/7b/3c257b2c84724b3c622690802b3f5b2b.jpg)
+    * [here](https://i2.wp.com/www.military-history.org/wp-content/uploads/2020/02/Trebia-218-BC-war-elephants-1.jpg?fit=700%2C456&ssl=1)
+    * [here](https://i.pinimg.com/originals/9f/11/bf/9f11bfc677f632c989091331cff7554e.png)
+* The images throughout this README file I used the windows 10 built in snipping tool to capture my final website and the validator results.
+
+### Acknowledgements
+* I would like to thank my mentor for the helpful feedback throughout the project, it really helped.
