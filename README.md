@@ -61,6 +61,12 @@ I used the W3C Markup Validator and the W3C CSS Validator to validate that the c
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)- [My Results](assets/images/css-validator-results.PNG)
 * [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Falbertbagatelas.github.io%2Fthird-punic-war%2F)
 
+## Other Testing
+* The website was tested on Brave, Google Chrome, Microsoft Edge, Safari and Samsung Internet browsers
+* The website was veiwed on different devices like, a desktop, a laptop, a Iphone, 6, 7, 8, 10 and 11 a Samsung Galaxy S21 and a S21 Ultra.
+* I used serprate example html and css file's to test and make changes to the responsivity of the website, to ensure it fully looked How I intended and was responsive 
+* I also asked family to look at the website to help point out any bugs with the website.
+
 ## Bugs
 * There are currently no known bugs to the website.
 
