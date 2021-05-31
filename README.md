@@ -22,3 +22,7 @@ View the live project [here](https://albertbagatelas.github.io/third-punic-war/)
 
 ## Wireframes
 * Link to my Wireframes [here](assets/wireframes/third-punic-war-wireframes.bmpr)
+
+## The Features
+* This website is responsive on all devices.
+* There are interactive elements to the website.
