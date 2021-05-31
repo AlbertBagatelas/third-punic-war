@@ -58,7 +58,13 @@ View the live project [here](https://albertbagatelas.github.io/third-punic-war/)
     * The information boxes that have been designed to carry most of the information throughout the website are designed to look like old style tablets that represent the time period better.
 
 ## Wireframes
-* Link to my Wireframes [here](assets/wireframes/third-punic-war-wireframes.bmpr)
+![Home Wireframe](.assets/images/home-wireframe1.PNG)
+
+![Home Wireframe](.assets/images/home-wireframe2.PNG)
+
+![Timeline wireframe](./assets/images/timeline-wireframe.PNG)
+
+![Battle of Carthage wireframe](./assets/images/battle-of-carthage-wireframe.PNG)
 
 ## The Features
 * This website is responsive on all devices.
