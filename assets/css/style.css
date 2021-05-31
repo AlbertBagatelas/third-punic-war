@@ -355,17 +355,23 @@ h1, h2 {
 }
 
 /* The form for the footer of the page */
+#form {
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/form-background.png);
+    margin-top: 60px;
+}
+
 form {
     width: 100%;
     height: 700px;
-    margin-top: 60px;
     text-align: center;
     letter-spacing: 3px;
 }
 
 fieldset {
     border: none;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 #sub-buttons {
@@ -377,7 +383,7 @@ input[type=submit] {
     border: 4px inset #fff;
     padding: 5px;
     border-radius: 25%;
-    background-color: rgba(255, 142, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
     margin-right: 10px;
     letter-spacing: 2px;
     font-weight: 200;
@@ -388,7 +394,7 @@ input[type=reset] {
     border: 4px inset #fff;
     padding: 5px;
     border-radius: 25%;
-    background-color: rgba(255, 142, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
     letter-spacing: 2px;
     font-weight: 200;
 }
@@ -397,7 +403,7 @@ input[type=text], input[type=email] {
     color: #fff;
     letter-spacing: 2px;
     font-weight: 200;
-    background-color: rgba(255, 142, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 25%;
     border: 4px inset #fff;
     padding: 5px;
@@ -411,7 +417,7 @@ textarea{
     color: #fff;
     letter-spacing: 2px;
     font-weight: 200;
-    background-color: rgba(255, 142, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10%;
     border: 4px inset #fff;
     padding: 5px;
