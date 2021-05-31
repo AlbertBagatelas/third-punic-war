@@ -26,3 +26,21 @@ View the live project [here](https://albertbagatelas.github.io/third-punic-war/)
 ## The Features
 * This website is responsive on all devices.
 * There are interactive elements to the website.
+
+## Languages Used
+* HTML5
+* CSS
+
+## Frameworks, Libraries and Programs Used
+* [Goggle Fonts-](https://fonts.google.com/) Google Fonts was used to import the style Shadows Into Light and Montserrat into the style.css file, which is used throughout the whole website.
+* [Git-](https://git-scm.com/) This was used for control of the Gitpod terminal to allow me to push it to GitHub.
+* [GitHub-](https://github.com/) This was used to hold the projects data and code that has been pushed from Gitpod, and serves as a hosting platform.
+* [Balsamiq](https://balsamiq.com/) Balsamiq was used to creat my wireframes for my design process to ensure that I had a good base design before starting the project.
+
+## Testing
+I used the W3C Markup Validator and the W3C CSS Validator to validate that the code that I done to ensure that there were no sytax errors so it was all legal to use.
+* [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)- [My Results](assets/images/html-validator-results.PNG)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)- [My Results](assets/images/css-validator-results.PNG)
+
+## Bugs
+* There are currently no known bugs to the website.
