@@ -109,6 +109,41 @@
         </div>
     </section>
     <footer>
+        <div id="form">
+            <form action="maxbagatelas@hotmail.com" method="POST">
+                <fieldset id="left">
+                    <legend>Your Details!</legend>
+                    <br>
+                    <div>
+                        <label for="name">Name</label>
+                        <input id="name" type="text" name="full_name" placeholder="Your Name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                </fieldset>
+
+                <fieldset id="middle">
+                    <legend>What Are Your Thoughts?</legend>
+                    <br>
+                    <textarea id="feedback" rows="4" cols="80" name="feedback"></textarea>
+                </fieldset>
+
+                <fieldset id="right">
+                    <legend>How Useful Did You Find The Website?</legend>
+                    <br>
+                    <input id="not-useful-choice" name="usefulness" value="not-useful" type="radio" required>
+                    <label for="not-useful-choice">Not useful</label>
+
+                    <input id="useful-choice" name="usefulness" value="useful" type="radio" required>
+                    <label for="useful-choice">Useful</label>
+
+                    <input id="very-useful-choice" name="usefulness" value="very-useful" type="radio" required>
+                    <label for="very-useful-choice">Very useful</label>
+                </fieldset>
+            </form>
+        </div>
         <!-- links to external sources of information through the footer of the page -->
         <div id="links-container">
             <nav id="links-inner">

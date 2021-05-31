@@ -19,3 +19,5 @@ View the live project [here](https://albertbagatelas.github.io/third-punic-war/)
     * The website employs some zooming effects to the different elements throughout the site, for example the main image zooms as you enter the website and for each page change, furthermore, as the information holders and navigation are hovered over they zoom out for effect. This is done to add some user interactivity to help the user keep invested in the website.
 * The information boxes!
     * The information boxes that have been designed to carry most of the information throughout the website are designed to look like old style tablets that represent the time period better.
+
+## 
