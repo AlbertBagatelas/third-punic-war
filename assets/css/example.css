@@ -352,6 +352,11 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
+iframe {
+    width: 90%;
+    
+}
+
 /* For scren six with a max width of 1300px or less*/
 @media screen and (max-width: 1300px) {
     /* information boxes*/

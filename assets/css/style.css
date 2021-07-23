@@ -385,6 +385,8 @@ h1, h2 {
 /* this sets the margin to the left to center the iframe */
 #video iframe {
     margin-left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 /* The form for the footer of the page */
